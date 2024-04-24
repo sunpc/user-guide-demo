@@ -1,0 +1,55 @@
+[
+	{"key": "0", "title": "Welcome", "target": "content", "href": "welcome.html", "icon": "icons/eye.png" },
+	{"key": "1", "title": "simple node", "target": "content", "href": "sample-simple-node.html" },
+	{"key": "2", "title": "item1 with key and tooltip", "tooltip": "Look, a tool tip!" },
+	{"key": "3", "title": "<span>item2 with <b>html</b> inside a span tag</span>" },
+	{"key": "4", "title": "node 4" },
+	{"key": "5", "title": "using href", "target": "_blank", "href": "https://wwWendt.de/", "extraClasses": "external" },
+	{"key": "6", "title": "node with some extra classes (will be added to the generated markup)", "extraClasses": "my-extra-class" },
+	{"key": "10", "title": "Folder 1", "folder": true, "children": [
+		{"key": "10_1", "title": "Sub-item 1.1", "children": [
+			{"key": "10_1_1", "title": "Sub-item 1.1.1"},
+			{"key": "10_1_2", "title": "Sub-item 1.1.2", "target": "content", "href": "sample-subitem-1.1.2.html"}
+		]},
+		{"key": "10_2", "title": "Sub-item 1.2", "children": [
+			{"key": "10_2_1", "title": "Sub-item 1.2.1"},
+			{"key": "10_2_2", "title": "Sub-item 1.2.2"}
+		]}
+	]},
+	{"key": "20", "title": "Simple node with active children (expand)", "folder": true, "expanded": true, "children": [
+		{"key": "20_1", "title": "Sub-item 2.1", "children": [
+			{"key": "20_1_1", "title": "Sub-item 2.1.1", "children": [
+				{"key": "20_1_1_1", "title": "Sub-item 2.1.1.1"}
+			]},
+			{"key": "20_1_2", "title": "Sub-item 2.1.2"}
+		]},
+		{"key": "20_2", "title": "Sub-item 2.2", "children": [
+			{"key": "20_2_1", "title": "Sub-item 2.2.1"},
+			{"key": "20_2_2", "title": "Sub-item 2.2.2"}
+		]}
+	]},
+	{"key": "21", "title": "Simple node with active children (expand)", "folder": true, "expanded": true, "children": [
+		{"key": "21_1", "title": "Sub-item 2.1", "children": [
+			{"key": "21_1_1", "title": "Sub-item 2.1.1", "children": [
+				{"key": "21_1_1_1", "title": "Sub-item 2.1.1.1"}
+			]},
+			{"key": "21_1_2", "title": "Sub-item 2.1.2"}
+		]},
+		{"key": "21_2", "title": "Sub-item 2.2", "children": [
+			{"key": "21_2_1", "title": "Sub-item 2.2.1"},
+			{"key": "21_2_2", "title": "Sub-item 2.2.2"}
+		]}
+	]},
+	{"key": "22", "title": "Simple node with active children (expand)", "folder": true, "expanded": true, "children": [
+		{"key": "22_1", "title": "Sub-item 2.1", "children": [
+			{"key": "22_1_1", "title": "Sub-item 2.1.1", "children": [
+				{"key": "22_1_1_1", "title": "Sub-item 2.1.1.1"}
+			]},
+			{"key": "22_1_2", "title": "Sub-item 2.1.2"}
+		]},
+		{"key": "22_2", "title": "Sub-item 2.2", "children": [
+			{"key": "22_2_1", "title": "Sub-item 2.2.1"},
+			{"key": "22_2_2", "title": "Sub-item 2.2.2"}
+		]}
+	]}
+]
